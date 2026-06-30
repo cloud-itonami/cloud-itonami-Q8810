@@ -1,0 +1,8 @@
+{:itonami.blueprint/id "cloud-itonami-8810"
+ :itonami.blueprint/name "Community Care Coordination"
+ :itonami.blueprint/isic-rev5 "8810"
+ :itonami.blueprint/domain :social-care/community-support
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:aging-in-place :disability-support :caregiver-relief]
+ :itonami.blueprint/governor :safeguarding-governor
+ :itonami.blueprint/status :public-oss}

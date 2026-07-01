@@ -7,6 +7,14 @@ This repository designs a forkable OSS business for community care
 coordination, check-ins, benefits navigation, caregiver scheduling and
 non-residential support operations.
 
+## Robotics premise
+
+All cloud-itonami verticals are designed on the premise that a **robot performs
+the physical domain work**. Here a care-coordination robot performs check-in, reminders and assistive support for care recipients under an actor that proposes
+actions and an independent **Safeguarding Governor** that gates them. The governor never
+dispatches hardware itself; `:high`/`:safety-critical` actions (such as
+operating near elders, care recipients or in homes) require human sign-off.
+
 ## Core Contract
 
 ```text
